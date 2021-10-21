@@ -5,9 +5,10 @@ rm(list = ls())
 library(datasets)
 library(readr) # https://readr.tidyverse.org/reference/write_delim.html
 library(openxlsx) # Escribir excel
+
 write.xlsx(datasets::Titanic, "data.xlsx")
 
-readr::write_xlsx
+
 #Limpieza de nuestra sesión
 
 #Ver datasets
